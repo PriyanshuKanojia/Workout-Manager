@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+  font-family: "Quicksand";
+  margin: 0;
+  color: #333;
+}
+
+/* Home */
+
+.home .content {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 100px;
+}
+
+/* Workout List */
+
+.workout-preview {
+  background-color: rgb(169, 130, 218);
+  margin: 6px;
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.workout-preview .title {
+  padding: 5px;
+  border-radius: 6px;
+  margin: 0 auto;
+  background-color: rgb(151, 98, 215);
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.workout-preview .span{
+  margin-left: auto;
+  /* text-align: center; */
+  background-color: white;
+  padding: 4px;
+  border-radius: 6px;
+  color: #f1356d;
+}
+
+.workout-preview .span :hover {
+  color: #f1356d;
+  cursor: pointer;
+}
+
+.workout-preview p{
+  font-size: smaller;
+  text-align: right;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: rgb(151, 98, 215);
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  border-bottom: 1px solid;
+}
+
+.navbar .child {
+  display: inline-block;
+}
+
+.navbar .links{
+  margin-left: auto;
+}
+
+.navbar button {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 8px;
+  background-color: white;
+  border-radius: 6px;
+  color: rgb(151, 98, 215);
+  cursor: pointer;
+}
+
+.navbar a{
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 8px;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.navbar a:hover{
+  color: #f1356d;
+}
+
+.content{
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Add Workout Page */
+
+.addWorkoutForm{
+  margin-right: 20px;
+  text-align: center;
+}
+
+.addWorkoutForm h1{
+  font-size: 40px;
+  color: rgb(129, 55, 220);
+  margin-bottom: 30px;
+}
+
+.addWorkoutForm label {
+  text-align: left;
+  display: block;
+  font-weight: 900;
+  color: rgb(151, 98, 215);
+}
+
+.addWorkoutForm input{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.addWorkoutForm select{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.addWorkoutForm button{
+  background: rgb(151, 98, 215);
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Login page */
+
+.login{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login h2{
+  font-size: 40px;
+  color: rgb(143, 79, 222);
+  margin-bottom: 30px;
+}
+
+.login label {
+  text-align: left;
+  display: block;
+  font-weight: 900;
+  color: rgb(151, 98, 215);
+}
+
+.login input{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.login button{
+  background: rgb(151, 98, 215);
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Signup Page */
+
+.signup{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.signup h2{
+  font-size: 40px;
+  color: rgb(143, 79, 222);
+  margin-bottom: 30px;
+}
+
+.signup label {
+  text-align: left;
+  display: block;
+  font-weight: 900;
+  color: rgb(151, 98, 215);
+}
+
+.signup input{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.signup button{
+  background: rgb(151, 98, 215);
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:not(:checked), 
+input[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999%;
+}
+
+input[type="checkbox"] + label {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+  background-color: rgb(232, 227, 227);
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+input[type="checkbox"]:checked + label {
+  border: 1px solid white;
+  color: white;
+  background-color: grey;
+}
+
+li{
+  display: inline;
+  list-style-type: none;
+  list-style-position: outside;
+  padding: 10px;
+}
+
+.tags {
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
